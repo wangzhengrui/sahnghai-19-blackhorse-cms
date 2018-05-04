@@ -73,5 +73,6 @@ export default new Router({
       path:"/pics/detail",
       component:PicsDetail
     }
-  ]
+  ],
+  linkActiveClass:"mui-active"
 })
