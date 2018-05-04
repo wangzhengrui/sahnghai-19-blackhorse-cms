@@ -28,7 +28,10 @@ import PicsDetail from "@/components/pics/detail"
 
 export default new Router({
   routes: [
-
+    {
+      path:"/",
+      redirect:"/home"
+    },
     // tabbar中的路由
     {
       path:"/home",
